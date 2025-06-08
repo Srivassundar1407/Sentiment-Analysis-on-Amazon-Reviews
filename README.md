@@ -21,31 +21,23 @@ bash
 └── README.md                          # This file
 
 Features:
+
 Text Preprocessing: Tokenization, stopword removal, punctuation/digit cleaning
-
 Sentiment Mapping: Rating → Sentiment (1-2: Negative, 3: Neutral, 4-5: Positive)
-
 WordCloud: For visualizing common terms in positive reviews
-
 Modeling:
   Logistic Regression with TF-IDF
   Random Forest Classifier
-
 Evaluation: Accuracy, precision, recall, F1-score, ROC curves
-
 Cross-Validation: K-Fold (5 splits)
-
 Data Augmentation: Synonym replacement using WordNet
-
 Error Analysis: Output of misclassified reviews
 
 Sample Output:
+
 Sentiment distribution bar plot
-
 Word cloud of positive reviews
-
 Classification reports for Logistic Regression and Random Forest
-
 ROC curve comparison
 
 Printed misclassified examples
